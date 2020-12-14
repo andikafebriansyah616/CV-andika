@@ -1,0 +1,155 @@
+body{
+    margin:0;
+}
+nav {
+    background-color: blueviolet;
+}
+.contents {
+    color:blue;
+}
+.topnav {
+    overflow:hidden;
+    background-color: cyan;
+    height:70px;
+    
+}
+.topnav a{
+    float:right;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:None;
+    font-size:17px;
+    padding-top:30px;
+}
+.header {
+    background-image: url("../image/index.jpeg");
+    background-size: cover;
+    height:500px;
+    width:100%;
+}
+
+.header-text {
+    position: relative;
+    text-align:center;
+    padding-top:100px;
+    color:black;
+}
+.header-text h2 {
+font-size: 55px;
+color:#dc143c;
+}
+.header-text p {
+    margin-right:300px;
+    margin-left:300px;
+}
+.button-header {
+text-align:center;
+margin-top:30px;
+}
+.button-header span {
+    background-color: #0000ff;
+    padding:15px 30px;
+    color:white;
+    cursor: pointer;
+    font-size:23px;
+}
+.button-header span:hover {
+background-color: #dc143c;
+transition: all 0.9s;
+}
+
+.contents-item-root {
+    display: inline-flex;
+    text-align: center;
+    padding-top:15px;
+}
+
+.contents-item{
+    margin:20px 20px;
+    border:2px solid black;
+    width:400px;
+    height:500px; padding-top: 80px;
+   
+}
+.contents-title h3 {
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:10px;
+    font-size:40px;
+}
+.contents-item img {
+    width:200px;
+}
+.contents-profile {
+    display:flex;
+    flex:auto;
+    height:400px;
+
+}
+.detail-profile {
+    width:50%;
+    text-align: center;
+}
+.detail-profile h3 {
+    font-size:55px;
+}
+.detail-user-profile {
+    text-align: center;
+    margin-left:300px;
+    margin-right:300px;
+}
+.user-profile {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.user-profile h3 {
+    font-size:30px;
+}
+.social {
+    display:inline-flex;
+    margin-top: 30px;
+}
+.social-icon {
+  height:350px;
+  text-align: center;
+  width: 451px;
+   
+}
+.social-instagram{
+    background-color:red;
+    padding:150px 65px;
+}
+
+.social-instagram:hover {
+    background-color: rgb(110, 3, 3);
+    cursor: pointer;
+}
+.social-facebook {
+    background-color:blue;
+    padding:150px 65px;
+    
+}
+.social-facebook:hover {
+    background-color: rgb(5, 5, 102);
+    cursor: pointer;
+}
+.social-twitter {
+    background-color: cyan;
+    padding:150px 65px;
+}
+.social-twitter:hover {
+    background-color: rgb(2, 110, 110);
+    cursor: pointer;
+}
+footer {
+    width:100%;
+    height: 200px;
+    background-color: cyan;
+}
+.footer-copyright {
+    padding-top:100px;
+    text-align: center;
+    font-size:20px;
+}
